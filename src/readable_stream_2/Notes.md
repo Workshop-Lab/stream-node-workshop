@@ -1,0 +1,3 @@
+Il existe deux modes différents pour les Readable streams en Node.js: le mode flowing (en flux continu) et le mode paused (en pause).
+
+En mode flowing, le flux est automatiquement en lecture continue et envoie des données dès qu'elles sont disponibles. L'événement data est émis chaque fois qu'il y a de nouvelles données disponibles, et l'événement end est émis lorsque toutes les données ont été lues.
